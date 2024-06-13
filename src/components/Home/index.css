@@ -1,0 +1,64 @@
+.homeContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+  padding: 40px;
+  align-self: flex-start;
+}
+
+.unOrderListContainer {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+
+.failureViewContainer {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 300px;
+  width: 400px;
+}
+.failureHeading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #4656a1;
+}
+.failureDescription {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+.button {
+  height: 40px;
+  width: 70px;
+  background-color: #4656a1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.loader-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
